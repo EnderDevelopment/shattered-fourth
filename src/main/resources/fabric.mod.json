@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "fourth_realm",
+  "version": "${version}",
+  "name": "The Fourth Realm",
+  "description": "An aerial realm of islands, divine bargains, and starforged equipment.",
+  "environment": "*",
+  "entrypoints": { "main": ["dev.enderdevelopment.fourthrealm.FourthRealm"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
